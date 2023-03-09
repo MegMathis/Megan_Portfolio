@@ -18,7 +18,7 @@ To use this portfolio you can use the navigation bar to find each section, About
 
 # Link to Deployment
 
-
+https://megmathis.github.io/Megan_Portfolio/
 
 # Credits
 
