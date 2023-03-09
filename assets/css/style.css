@@ -99,7 +99,9 @@ section {
   width: 100%
 }
 
-
+.container {
+  flex: 1;
+}
 
 .card {
   border-style: solid;
