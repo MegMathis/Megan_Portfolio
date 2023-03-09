@@ -10,17 +10,14 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: rgb(54, 51, 51);
   color: #fff;
 }
 
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible 
-*/
+
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: coral;
 }
 
 nav a {
@@ -28,12 +25,17 @@ nav a {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
+  
 }
 
-/* 
-What is the flex-wrap property?
-It specifies whether the flex items should wrap or not 
-*/
+.title:hover {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -72,12 +74,34 @@ It is a shorthand property for the flex-grow, flex-shrink, and flex-basis proper
 What is it doing here?
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
+.card-1 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 800px;
+  margin: 5px;
+}
+
+.card-1 header {
+  padding: 20px;
+}
+
+.card-1 p {
+  text-align: center;
+}
+
+.card-1 img {
+  width: 95%;
+}
+
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
+  margin: 5px;
 }
 
 .card header {
